@@ -71,4 +71,4 @@ async def on_guild_channel_create(channel):
         except:
           pass
         
-client.run("")
+client.run(open("token.txt").read())
